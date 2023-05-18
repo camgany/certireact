@@ -1,11 +1,10 @@
-import about from "../assets/about.jpeg";
+import about from "../assets/about.jpg";
+import Title from "./Title";
 export const About = () => {
     return (
         <>
-        <section className="section" id="about">
-      <div className="section-title">
-        <h2>about <span>us</span></h2>
-      </div>
+        <section className="section" id="Perfil">
+      <Title title="Perfil" subtitle="Profesional" />
 
       <div className="section-center about-center">
         <div className="about-img">
@@ -16,18 +15,20 @@ export const About = () => {
           />
         </div>
         <article className="about-info">
-          <h3>explore the difference</h3>
+          <h3>El (ISC), de formación bilingüe, está capacitado para:</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+          • Brindar soluciones informáticas a instituciones industriales o de servicios tanto a nivel de software como de hardware.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+          • Promover el desarrollo de tres capacidades fundamentales: espíritu de análisis, desarrollo de una visión del sistema futuro y trabajo interdisciplinario.
           </p>
-          <a href="#" className="btn">read more</a>
+          <p>
+          • Administrar sistemas informáticos y desarrollar aplicaciones a medida del cliente en diferentes campos.
+          </p>
+          <p>
+• Relacionarse con el mundo profesional en cualquier rama: Economía, Educación, Ingenierías, Ciencias de la Salud, Telecomunicaciones, etc.
+          </p>
+          <a href="#" className="btn">Leer Más</a>
         </article>
       </div>
     </section>

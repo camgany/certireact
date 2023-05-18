@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo_upb.png";
 import { SectionLinks } from "./SectionLinks";
 import { socialLinks } from "../data/data";
 import { SocialLinks } from "./SocialLinks";
@@ -13,12 +13,12 @@ export const NavBar = () => {
             <i className="fas fa-bars"></i>
           </button>
         </div>
-        <SectionLinks />
+        <SectionLinks parentClass="nav-links" itemClass="nav-link"></SectionLinks>
 
         <ul className="nav-icons">
           {socialLinks.map((social) => {
             return (
-              <SocialLinks key={social.id} social={social.link}></SocialLinks>
+              <SocialLinks key={social.id} social={social.link} itemClass= 'nav-icon'></SocialLinks>
             );
           })}
         </ul>
